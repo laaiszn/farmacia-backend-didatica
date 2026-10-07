@@ -7,4 +7,4 @@ server.use(cors()); // Configura o servidor para usar o CORS
 server.use(express.json()); // configura o servidor para usar JSON
 server.use(router); // adiciona as rotas ao servidor HTTP
 
-export { server }; // exporta o servidor
+export { server }; 
